@@ -1,0 +1,31 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  color: var(--grey);
+  margin-right: 20px;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  color: var(--grey);
+}
+
+.settings-list:first-child {
+  margin-bottom: 60px;
+}
+.settings-list:last-child {
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+#settings-screen {
+  height: 130vh;
+  background-color: lightgreen;
+}
+.settings-status-bar {
+  background-color: lightgreen;
+}
